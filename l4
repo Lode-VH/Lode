@@ -1,0 +1,6 @@
+from tkinter import messagebox
+
+virus_bericht = ["Je hebt een virus loser!", "Je computer is gehackt!", "Je computer is naar beneden gevallen!", "Je computer is gebombardeerd!","je computer heeft tering", "je computer is naar de tering", "je bent een mongool zo achtelijk!", "je bent gefackt sukkel", "het zal je leren illegale dingen te doen op je commputer!"]
+
+for bericht in virus_bericht:
+messagebox.showinfo("Virus", bericht)
